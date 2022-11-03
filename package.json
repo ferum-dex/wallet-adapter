@@ -1,10 +1,12 @@
 {
   "name": "@ferum/aptos-wallet-adapter",
-  "version": "0.6.7",
+  "version": "0.6.8",
   "description": "Wallet adapter with supporting Vue and React",
   "main": "./src/index.ts",
+  "types": "./dist/index.d.ts",
   "files": [
-    "src"
+    "src",
+    "dist"
   ],
   "keywords": [
     "ferum",
@@ -16,6 +18,9 @@
     "url": "https://github.com/ferum-dex/wallet-adapter/issues"
   },
   "homepage": "https://github.com/ferum-dex/wallet-adapter#readme",
+  "scripts": {
+    "build": "rm -rf dist; tsc -p tsconfig.json"
+  },
   "license": "MIT",
   "devDependencies": {
     "eslint-config-airbnb-typescript": "17.0.0",
