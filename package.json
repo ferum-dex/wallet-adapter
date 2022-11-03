@@ -1,8 +1,8 @@
 {
   "name": "@ferum/aptos-wallet-adapter",
-  "version": "0.6.8",
+  "version": "0.6.9",
   "description": "Wallet adapter with supporting Vue and React",
-  "main": "./src/index.ts",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "files": [
     "src",
