@@ -1,6 +1,6 @@
 {
   "name": "@ferum/aptos-wallet-adapter",
-  "version": "0.6.5",
+  "version": "0.6.6",
   "description": "Wallet adapter with supporting Vue and React",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -28,8 +28,7 @@
     "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.30.1",
     "eslint-plugin-react-hooks": "4.6.0",
-    "prettier": "2.7.1",
-    "typescript": "4.7.4"
+    "prettier": "2.7.1"
   },
   "dependencies": {
     "@fewcha/web3": "0.1.32",
@@ -41,8 +40,6 @@
     "js-sha3": "0.8.0"
   },
   "optionalDependencies": {
-    "react": "^18.X.X",
-    "react-dom": "^18.X.X",
     "pinia": "2.0.22",
     "vue": "3.2.40"
   }
